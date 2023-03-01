@@ -1,13 +1,14 @@
-import FrasesDeArromba from "./FrasesDeArromba";
+import Frases from "./Frases";
 function Hello(){
 
     return (
         <div>
-            <FrasesDeArromba/>
-            <p>
+            
+            <h1>
                 Meu primeiro componente
 
-            </p>
+            </h1>
+            <Frases/>
         </div>
     )
 }
