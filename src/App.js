@@ -6,6 +6,7 @@ import Pessoa from './components/Pessoa';
 import List from './components/List';
 import Eventos from './components/Eventos';
 import Form from './components/Form';
+import Condicional from './components/Condicional';
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
       <Eventos/>
       <h1>Testando Form</h1>
       <Form/>
+      <h1>Renderização Condicional:</h1> 
+      <Condicional/>
     </div>
   );
 }
